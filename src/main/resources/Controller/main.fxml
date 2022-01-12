@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.mainController">
+
+   <children>
+      <AnchorPane prefHeight="616.0" prefWidth="993.0" style="-fx-background-color: #030307;">
+         <children>
+            <BorderPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <left>
+                  <VBox prefHeight="544.0" prefWidth="74.0" style="-fx-background-color: #131022;" BorderPane.alignment="CENTER">
+                     <children>
+                        <Pane prefHeight="51.0" prefWidth="74.0" style="-fx-background-radius: 15 0 15 15;" />
+                        <Button fx:id="btnHome" contentDisplay="TOP" mnemonicParsing="false" onAction="#toHome" prefHeight="66.0" prefWidth="74.0" styleClass="button3" stylesheets="@../css/fullpackstyling.css" text="%btnHome.text" textFill="#a868a0">
+                           <graphic>
+                              <ImageView fitHeight="25.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../icon/home.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button fx:id="btnAnggota" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#toAnggota" prefHeight="66.0" prefWidth="74.0" styleClass="button3" stylesheets="@../css/fullpackstyling.css" text="%btnAnggota.text" textFill="#a868a0">
+                           <graphic>
+                              <ImageView fitHeight="25.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../icon/anggota.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button fx:id="btnPinjaman" contentDisplay="TOP" layoutX="10.0" layoutY="76.0" mnemonicParsing="false" onAction="#toPinjaman" prefHeight="66.0" prefWidth="74.0" styleClass="button3" stylesheets="@../css/fullpackstyling.css" text="%btnPinjaman.text" textFill="#a868a0">
+                           <graphic>
+                              <ImageView fitHeight="25.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../icon/pinjaman.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button fx:id="btnBuku" contentDisplay="TOP" layoutX="10.0" layoutY="142.0" mnemonicParsing="false" onAction="#toBuku" prefHeight="66.0" prefWidth="74.0" styleClass="button3" stylesheets="@../css/fullpackstyling.css" text="%btnBuku.text" textFill="#a868a0">
+                           <graphic>
+                              <ImageView fitHeight="25.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../icon/buku.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button fx:id="btnGenre" contentDisplay="TOP" mnemonicParsing="false" onAction="#toGenre" prefHeight="66.0" prefWidth="74.0" styleClass="button3" stylesheets="@../css/fullpackstyling.css" text="%btnGenre.text" textFill="#a868a0">
+                           <graphic>
+                              <ImageView fitHeight="25.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../icon/genre.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button fx:id="btnPenerbit" contentDisplay="TOP" mnemonicParsing="false" onAction="#toPenerbit" prefHeight="66.0" prefWidth="74.0" styleClass="button3" stylesheets="@../css/fullpackstyling.css" text="%btnPenerbit.text" textFill="#a868a0">
+                           <graphic>
+                              <ImageView fitHeight="25.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../icon/penerbit.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button fx:id="btnBahasa" contentDisplay="TOP" mnemonicParsing="false" onAction="#toBahasa" prefHeight="66.0" prefWidth="74.0" styleClass="button3" stylesheets="@../css/fullpackstyling.css" text="%btnBahasa.text" textFill="#a868a0">
+                           <graphic>
+                              <ImageView fitHeight="25.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../icon/bahasa.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button fx:id="btnKeluar" contentDisplay="TOP" mnemonicParsing="false" onAction="#keluar" prefHeight="66.0" prefWidth="74.0" styleClass="button3" stylesheets="@../css/fullpackstyling.css" text="%btnKeluar.text" textFill="#a868a0">
+                           <graphic>
+                              <ImageView fitHeight="25.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../icon/keluar.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                     </children>
+                  </VBox>
+               </left>
+               <center>
+                  <AnchorPane prefHeight="508.0" prefWidth="919.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <StackPane fx:id="contentArea" layoutX="-8.0" layoutY="5.0" prefHeight="617.0" prefWidth="921.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                     </children>
+                  </AnchorPane>
+               </center>
+            </BorderPane>
+            <ImageView fitHeight="38.0" fitWidth="34.0" layoutX="91.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icon/perpusKita.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="134.0" layoutY="29.0" text="PerpusKita Reborn" textFill="WHITE">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="labHello" layoutX="92.0" layoutY="58.0" text="Hello," textFill="WHITE">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="labNama" layoutX="127.0" layoutY="58.0" text="Nama" textFill="WHITE">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="718.0" layoutY="28.0" text="Created By 1972002 - 1972003 - 1972004" textFill="WHITE">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="718.0" layoutY="44.0" text="Kevin Juan - Ilman Nawali - Yehezkiel Christian" textFill="WHITE">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
