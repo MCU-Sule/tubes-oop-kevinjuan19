@@ -6,3 +6,8 @@ link youtube
 ````
 https://youtu.be/v2bYhANJkJs
 ````
+## Database
+Database disediakan dalam bentuk mwb dengan nama perpus.mwb
+````
+perpus.mwb
+````
